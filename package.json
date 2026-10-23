@@ -1,0 +1,17 @@
+{
+  "name": "rpgmigrate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "postinstall": "node -e \"require('electron')\""
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "devDependencies": {
+    "@electron-internal/extract-zip": "1.0.5",
+    "@electron/get": "5.1.0",
+    "electron": "43.4.1"
+  }
+}
